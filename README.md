@@ -1,4 +1,4 @@
-# code-with-quarkus Project
+# Site Activity Reporting project (coding with Quarkus Project)
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
