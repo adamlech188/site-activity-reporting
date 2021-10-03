@@ -29,7 +29,7 @@ public class ActivityEventService {
 		return new ActivityEventDTO(value);
 	}
 
-	public ActivityEventDTO createActivityEvents(String key, ActivityEventDTO activityEventDTO) {
+	public ActivityEventDTO createActivityEvents(final String key, final ActivityEventDTO activityEventDTO) {
 
 		Integer newValue = activityEventDTO.getValue();
 		if (null == activityEventDTO.getValue()) {
